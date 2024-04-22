@@ -1,0 +1,56 @@
+body {
+    background-image: url("flower.jpg");
+    background-size: cover;
+    font-family: "Inter", sans-serif;
+    color: #05668d;
+    text-align: center;
+    height: 100vh; //means image always takes 100% of viewpoint height
+}
+
+#width-set{
+    background: whitesmoke;
+    max-width: 60%;
+    margin: auto;
+    border: 3px solid #00a896;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h1:hover{
+    text-shadow: 3px 3px #02c39a;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: whitesmoke;
+    width: 150px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    text-shadow: 2px 2px #05668d;
+}
+
+#increment-btn {
+    background: #028090;
+}
+
+#save-btn {
+    background: #00a896;
+}
+
+
+p{
+    font-style: italic
+}
